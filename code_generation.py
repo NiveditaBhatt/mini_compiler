@@ -21,7 +21,7 @@ def parse_c_file(file_path):
 
     class SymbolVisitor(c_ast.NodeVisitor):
         def __init__(self):
-            self.counter = 0
+            self.counter = 1
 
         def visit_Decl(self, node):
             var_name = node.name

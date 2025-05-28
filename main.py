@@ -41,7 +41,7 @@ for label, script in buttons:
         text=label,
         width=35,
         height=2,
-        bg="#3399FF",       # lighter blue color
+        bg="#3399FF",       # lighter_blue color
         fg="white",
         font=("Arial", 10, "bold"),
         command=lambda s=script: run_script(s)

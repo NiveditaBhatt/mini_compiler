@@ -3,7 +3,7 @@ def generate_parse_tree():
     import matplotlib.pyplot as plt
     import re
 
-    code = code_area.get(1.0, tk.END).strip()
+    code = code_area.get( 1.0, tk.END).strip()
     lines = [line.strip() for line in code.splitlines() if line.strip()]
 
     G = nx.DiGraph()

@@ -1,0 +1,10 @@
+// Phase Tree
+digraph {
+	Root [label="Function [main]"]
+	N0 [label="Declaration: int x = 10;"]
+	Root -> N0
+	N1 [label="Declaration: float y = 3.14;"]
+	Root -> N1
+	N2 [label="Return Statement: return 0;"]
+	Root -> N2
+}

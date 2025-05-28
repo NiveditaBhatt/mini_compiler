@@ -58,7 +58,7 @@ def optimize_code(code):
     return '\n'.join(optimized_lines)
 
 
-# GUI Code
+# GUI Codes
 class CodeOptimizerGUI:
     def __init__(self, master):
         self.master = master

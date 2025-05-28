@@ -19,7 +19,7 @@ root.configure(bg="#2b2b2b")
 tk.Label(
     root,
     text="Mini C Compiler - Module Launcher",
-    font=("Arial", 14, "bold"),
+    font=("Arial", 15, "bold"),
     fg="white",
     bg="#2b2b2b"
 ).pack(pady=15)

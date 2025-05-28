@@ -39,8 +39,8 @@ for label, script in buttons:
     tk.Button(
         root,
         text=label,
-        width=35,
-        height=2,
+        width=36,
+        height=5,
         bg="#3399FF",       # lighter_blue color
         fg="white",
         font=("Arial", 10, "bold"),
